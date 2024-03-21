@@ -1,0 +1,13 @@
+#ReservationConfirmation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#ReservationConfirmation h1{
+    color: var(--primary-color-1);
+    font-family: var(--font-style-2);
+    font-size: xxx-large;
+}

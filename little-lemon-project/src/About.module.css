@@ -1,0 +1,108 @@
+@import url('./Global.css');
+
+#About{
+    background-color: var(--primary-color-3);
+    display: flex;
+    justify-content: center;
+}
+
+#About h1{
+    color: var(--primary-color-2);
+    font-family: var(--font-style-2);
+    font-size: xxx-large;
+    margin-bottom: 0;
+}
+
+#About h3{
+    color: var(--primary-color-1);
+    font-family: var(--font-style-2);
+    font-size: xx-large;
+    margin: 0;
+}
+
+#About p{
+    width: 267px;
+    color: var(--primary-color-1);
+    font-family: var(--font-style-1);
+
+}
+
+#About > div > div{
+    position: relative;
+    
+}
+
+#About img{
+    object-fit: cover;
+    width: 230px;
+    height: 310px;
+}
+
+
+@media screen and (max-width:700px){
+    #About > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+
+    #About div > div > img:first-child{
+        top:100px;
+        left: -150px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #About div > div > img:nth-child(2){
+        position: absolute;
+        top:50px;
+        left: -90px;
+        z-index: 0
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    #About > div{
+        display: flex;
+        gap:450px;
+        height: 500px;
+    }
+
+    #About div > div > img:first-child{
+        top:100px;
+        right: 180px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #About div > div > img:nth-child(2){
+        position: absolute;
+        top:50px;
+        right:20px;
+        z-index: 0
+    }
+
+}
+
+@media screen and (min-width:901px){
+    #About > div{
+        display: flex;
+        gap: 625px;
+        height: 500px;
+    }
+
+    #About div > div > img:first-child{
+        top:100px;
+        right: 190px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    #About div > div > img:nth-child(2){
+        position: absolute;
+        top:50px;
+        right:20px;
+        z-index: 0
+    }
+}

@@ -1,0 +1,72 @@
+@import url('./Global.css');
+
+#Hero{
+    background-color: var(--primary-color-1);
+    display: flex;
+    justify-content: center;
+}
+
+#Hero div img{
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom:-20px;
+}
+
+#Hero h1{
+    color: var(--primary-color-2);
+    font-family: var(--font-style-2);
+    font-size: xxx-large;
+    margin-bottom: 0;
+}
+
+#Hero h3{
+    color: var(--secondary-color-2);
+    font-family: var(--font-style-2);
+    font-size: xx-large;
+    margin: 0;
+}
+
+#Hero > div > article > p{
+    width: 267px;
+    color: var(--secondary-color-2);
+    font-family: var(--font-style-1);
+}
+
+@media screen and (max-width:700px){
+    #Hero div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Hero div img{
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    #Hero div{
+        display: flex;
+        gap:50px;
+    }
+
+    #Hero div img{
+        width: 400px;
+        height: 400px;
+        margin-top: 39px;
+    }
+}
+
+@media screen and (min-width:901px){
+    #Hero div{
+        display: flex;
+        gap:230px;
+    }
+
+    #Hero div img{
+        width: 400px;
+        height: 400px;
+        margin-top: 39px;
+    }
+}

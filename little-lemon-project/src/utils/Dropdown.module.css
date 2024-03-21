@@ -1,0 +1,36 @@
+@import url("../Global.css");
+
+.Dropdown-main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Dropdown{
+    border-radius: 16px;
+    width: 200px;
+    height: 35px;
+    background-color: #D9D9D9;
+    font-family: var(--font-style-1);
+    font-size: large;
+    padding: 0px 20px;
+    border: none;
+    color: var(--primary-color-4);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dropdown > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.Dropdown img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}

@@ -1,0 +1,76 @@
+@import url('./Global.css');
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color-2);
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    padding: 69px 0px;
+}
+
+footer img{
+    width: 162px;
+    height: 279px;
+    object-fit: cover;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+}
+
+footer ul li{
+    font-family: var(--font-style-1);
+    cursor: pointer;
+}
+
+footer ul li:first-child{
+    color: var(--primary-color-1);
+    font-weight: 800;
+}
+
+@media screen and (max-width: 700px) {
+    footer div{
+        flex-direction: column;
+        gap:25px;
+    }
+
+    footer ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    footer ul li:nth-child(2){
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    footer div{
+        gap:50px;
+    }
+
+    footer ul{
+        padding: 32.5px 0px 65px;
+    }
+
+}
+
+@media screen and (min-width:901px){
+    footer div{
+        gap:110px;
+    }
+
+    footer ul{
+        padding: 32.5px 0px 65px;
+    }
+
+    footer ul li:nth-child(2){
+        margin-top: 15px;
+    }
+}

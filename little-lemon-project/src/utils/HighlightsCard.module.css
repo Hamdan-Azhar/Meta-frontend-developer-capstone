@@ -1,0 +1,67 @@
+@import url('../Global.css');
+
+.Highlights-card{
+    width: 265px;
+    height: 440px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Highlights-card > img{
+   width:265px;
+   height: 185px;
+   object-fit: cover;
+   border-radius: 16px;
+}
+
+.Highlights-card > div{
+   width: 100%;
+   margin: 0px auto;
+   display: flex;
+   width: 220px;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Highlights-card h3{
+    font-family: var(--font-style-2);
+    color: var(--secondary-color-3);
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+
+.Highlights-card > div > div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Highlights-card > div > div:first-child > p{
+    font-family: var(--font-style-1);
+    color: var(--secondary-color-1);
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.Highlights-card > div > p{
+    font-family: var(--font-style-1);
+    color: var(--primary-color-1);
+}
+
+.Highlights-card > div > div:nth-child(3) > p{
+    font-family: var(--font-style-1);
+    color: var(--secondary-color-3);
+    font-weight: 800;
+    display: inline;
+}
+
+.Highlights-card > div > div:nth-child(3) > img{
+    width: 20px;
+    height: 14px;
+    object-fit: contain;
+}
+
+
+
+

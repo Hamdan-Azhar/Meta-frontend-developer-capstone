@@ -1,0 +1,65 @@
+@import url('./Global.css');
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color-3);
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 202px;
+    height: 76px;
+    object-fit: contain;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header nav li{
+    font-family: var(--font-style-1);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    header nav{
+        flex-direction: column;
+    }
+
+    header nav ul{
+        padding: 15px 0px 0px;
+        gap:28px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    header nav{
+        gap:20px;
+    }
+
+    header nav ul{
+        padding: 38px 20px;
+        gap:20px;
+    }
+}
+
+@media screen and (min-width:901px) {
+    header nav{
+        gap:70px;
+    }
+
+    header nav ul{
+        padding: 38px 64px;
+        gap:28px;
+    }
+}
+
