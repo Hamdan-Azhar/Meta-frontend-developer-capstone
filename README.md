@@ -1,1 +1,5 @@
 # Meta-frontend-developer-capstone
+
+In the Front-End Developer Capstone Certificate program within the Meta Frontend Developer Certificate, I successfully completed a web application project. This project was about functionality of reserving a table in the little lemon restaurant website.The user can confirm reservation after giving his/her personal details and booking information. 
+
+In this project, I first created the frontend using React where the entire frontend is divided into many components. The frontend is totally responsive and consists of the home page, reservation page and reservation confirmation page.Then I developed the backend using express. I developed functionality that fetches the booking times available for a particular day from mongo db and send it to the reservation page on the frontend. I also developed functionality for saving the reservation details for the user in mongo db. The api calls between frontend and backend happen using axios. 
